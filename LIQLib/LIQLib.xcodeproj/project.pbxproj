@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09EAB55C1CC93FEF00EE7EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB55B1CC93FEF00EE7EEA /* main.m */; };
+		09EAB55F1CC93FEF00EE7EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB55E1CC93FEF00EE7EEA /* AppDelegate.m */; };
+		09EAB5621CC93FEF00EE7EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB5611CC93FEF00EE7EEA /* ViewController.m */; };
+		09EAB5651CC93FEF00EE7EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EAB5631CC93FEF00EE7EEA /* Main.storyboard */; };
+		09EAB5671CC93FEF00EE7EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09EAB5661CC93FEF00EE7EEA /* Assets.xcassets */; };
+		09EAB56A1CC93FEF00EE7EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EAB5681CC93FEF00EE7EEA /* LaunchScreen.storyboard */; };
+		09EAB5751CC93FEF00EE7EEA /* LIQLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB5741CC93FEF00EE7EEA /* LIQLibTests.m */; };
+		09EAB5801CC93FEF00EE7EEA /* LIQLibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB57F1CC93FEF00EE7EEA /* LIQLibUITests.m */; };
+		09EAB5901CC940C300EE7EEA /* UINavigationController+lqcNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB58F1CC940C300EE7EEA /* UINavigationController+lqcNav.m */; };
+		09EAB5971CC94AC100EE7EEA /* LQCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB5961CC94AC100EE7EEA /* LQCRuntime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09EAB5711CC93FEF00EE7EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09EAB54F1CC93FEF00EE7EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09EAB5561CC93FEF00EE7EEA;
+			remoteInfo = LIQLib;
+		};
+		09EAB57C1CC93FEF00EE7EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09EAB54F1CC93FEF00EE7EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09EAB5561CC93FEF00EE7EEA;
+			remoteInfo = LIQLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09EAB5571CC93FEF00EE7EEA /* LIQLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIQLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EAB55B1CC93FEF00EE7EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09EAB55D1CC93FEF00EE7EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09EAB55E1CC93FEF00EE7EEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09EAB5601CC93FEF00EE7EEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09EAB5611CC93FEF00EE7EEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09EAB5641CC93FEF00EE7EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09EAB5661CC93FEF00EE7EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09EAB5691CC93FEF00EE7EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09EAB56B1CC93FEF00EE7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09EAB5701CC93FEF00EE7EEA /* LIQLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIQLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EAB5741CC93FEF00EE7EEA /* LIQLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIQLibTests.m; sourceTree = "<group>"; };
+		09EAB5761CC93FEF00EE7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09EAB57B1CC93FEF00EE7EEA /* LIQLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIQLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EAB57F1CC93FEF00EE7EEA /* LIQLibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIQLibUITests.m; sourceTree = "<group>"; };
+		09EAB5811CC93FEF00EE7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09EAB58E1CC940C300EE7EEA /* UINavigationController+lqcNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+lqcNav.h"; sourceTree = "<group>"; };
+		09EAB58F1CC940C300EE7EEA /* UINavigationController+lqcNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+lqcNav.m"; sourceTree = "<group>"; };
+		09EAB5951CC94AC100EE7EEA /* LQCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCRuntime.h; sourceTree = "<group>"; };
+		09EAB5961CC94AC100EE7EEA /* LQCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCRuntime.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09EAB5541CC93FEF00EE7EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EAB56D1CC93FEF00EE7EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EAB5781CC93FEF00EE7EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09EAB54E1CC93FEF00EE7EEA = {
+			isa = PBXGroup;
+			children = (
+				09EAB5591CC93FEF00EE7EEA /* LIQLib */,
+				09EAB5731CC93FEF00EE7EEA /* LIQLibTests */,
+				09EAB57E1CC93FEF00EE7EEA /* LIQLibUITests */,
+				09EAB5581CC93FEF00EE7EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09EAB5581CC93FEF00EE7EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB5571CC93FEF00EE7EEA /* LIQLib.app */,
+				09EAB5701CC93FEF00EE7EEA /* LIQLibTests.xctest */,
+				09EAB57B1CC93FEF00EE7EEA /* LIQLibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09EAB5591CC93FEF00EE7EEA /* LIQLib */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB5911CC949EE00EE7EEA /* LIQRuntime */,
+				09EAB58D1CC9404500EE7EEA /* UINavgition */,
+				09EAB55D1CC93FEF00EE7EEA /* AppDelegate.h */,
+				09EAB55E1CC93FEF00EE7EEA /* AppDelegate.m */,
+				09EAB5601CC93FEF00EE7EEA /* ViewController.h */,
+				09EAB5611CC93FEF00EE7EEA /* ViewController.m */,
+				09EAB5631CC93FEF00EE7EEA /* Main.storyboard */,
+				09EAB5661CC93FEF00EE7EEA /* Assets.xcassets */,
+				09EAB5681CC93FEF00EE7EEA /* LaunchScreen.storyboard */,
+				09EAB56B1CC93FEF00EE7EEA /* Info.plist */,
+				09EAB55A1CC93FEF00EE7EEA /* Supporting Files */,
+			);
+			path = LIQLib;
+			sourceTree = "<group>";
+		};
+		09EAB55A1CC93FEF00EE7EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB55B1CC93FEF00EE7EEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09EAB5731CC93FEF00EE7EEA /* LIQLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB5741CC93FEF00EE7EEA /* LIQLibTests.m */,
+				09EAB5761CC93FEF00EE7EEA /* Info.plist */,
+			);
+			path = LIQLibTests;
+			sourceTree = "<group>";
+		};
+		09EAB57E1CC93FEF00EE7EEA /* LIQLibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB57F1CC93FEF00EE7EEA /* LIQLibUITests.m */,
+				09EAB5811CC93FEF00EE7EEA /* Info.plist */,
+			);
+			path = LIQLibUITests;
+			sourceTree = "<group>";
+		};
+		09EAB58D1CC9404500EE7EEA /* UINavgition */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB58E1CC940C300EE7EEA /* UINavigationController+lqcNav.h */,
+				09EAB58F1CC940C300EE7EEA /* UINavigationController+lqcNav.m */,
+			);
+			path = UINavgition;
+			sourceTree = "<group>";
+		};
+		09EAB5911CC949EE00EE7EEA /* LIQRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB5951CC94AC100EE7EEA /* LQCRuntime.h */,
+				09EAB5961CC94AC100EE7EEA /* LQCRuntime.m */,
+			);
+			path = LIQRuntime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09EAB5561CC93FEF00EE7EEA /* LIQLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EAB5841CC93FEF00EE7EEA /* Build configuration list for PBXNativeTarget "LIQLib" */;
+			buildPhases = (
+				09EAB5531CC93FEF00EE7EEA /* Sources */,
+				09EAB5541CC93FEF00EE7EEA /* Frameworks */,
+				09EAB5551CC93FEF00EE7EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LIQLib;
+			productName = LIQLib;
+			productReference = 09EAB5571CC93FEF00EE7EEA /* LIQLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09EAB56F1CC93FEF00EE7EEA /* LIQLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EAB5871CC93FEF00EE7EEA /* Build configuration list for PBXNativeTarget "LIQLibTests" */;
+			buildPhases = (
+				09EAB56C1CC93FEF00EE7EEA /* Sources */,
+				09EAB56D1CC93FEF00EE7EEA /* Frameworks */,
+				09EAB56E1CC93FEF00EE7EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09EAB5721CC93FEF00EE7EEA /* PBXTargetDependency */,
+			);
+			name = LIQLibTests;
+			productName = LIQLibTests;
+			productReference = 09EAB5701CC93FEF00EE7EEA /* LIQLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09EAB57A1CC93FEF00EE7EEA /* LIQLibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EAB58A1CC93FEF00EE7EEA /* Build configuration list for PBXNativeTarget "LIQLibUITests" */;
+			buildPhases = (
+				09EAB5771CC93FEF00EE7EEA /* Sources */,
+				09EAB5781CC93FEF00EE7EEA /* Frameworks */,
+				09EAB5791CC93FEF00EE7EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09EAB57D1CC93FEF00EE7EEA /* PBXTargetDependency */,
+			);
+			name = LIQLibUITests;
+			productName = LIQLibUITests;
+			productReference = 09EAB57B1CC93FEF00EE7EEA /* LIQLibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09EAB54F1CC93FEF00EE7EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LQ_MAC;
+				TargetAttributes = {
+					09EAB5561CC93FEF00EE7EEA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FQ325YQXV8;
+					};
+					09EAB56F1CC93FEF00EE7EEA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FQ325YQXV8;
+						TestTargetID = 09EAB5561CC93FEF00EE7EEA;
+					};
+					09EAB57A1CC93FEF00EE7EEA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FQ325YQXV8;
+						TestTargetID = 09EAB5561CC93FEF00EE7EEA;
+					};
+				};
+			};
+			buildConfigurationList = 09EAB5521CC93FEF00EE7EEA /* Build configuration list for PBXProject "LIQLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09EAB54E1CC93FEF00EE7EEA;
+			productRefGroup = 09EAB5581CC93FEF00EE7EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09EAB5561CC93FEF00EE7EEA /* LIQLib */,
+				09EAB56F1CC93FEF00EE7EEA /* LIQLibTests */,
+				09EAB57A1CC93FEF00EE7EEA /* LIQLibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09EAB5551CC93FEF00EE7EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EAB56A1CC93FEF00EE7EEA /* LaunchScreen.storyboard in Resources */,
+				09EAB5671CC93FEF00EE7EEA /* Assets.xcassets in Resources */,
+				09EAB5651CC93FEF00EE7EEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EAB56E1CC93FEF00EE7EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EAB5791CC93FEF00EE7EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09EAB5531CC93FEF00EE7EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EAB5901CC940C300EE7EEA /* UINavigationController+lqcNav.m in Sources */,
+				09EAB5621CC93FEF00EE7EEA /* ViewController.m in Sources */,
+				09EAB55F1CC93FEF00EE7EEA /* AppDelegate.m in Sources */,
+				09EAB55C1CC93FEF00EE7EEA /* main.m in Sources */,
+				09EAB5971CC94AC100EE7EEA /* LQCRuntime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EAB56C1CC93FEF00EE7EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EAB5751CC93FEF00EE7EEA /* LIQLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EAB5771CC93FEF00EE7EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EAB5801CC93FEF00EE7EEA /* LIQLibUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09EAB5721CC93FEF00EE7EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09EAB5561CC93FEF00EE7EEA /* LIQLib */;
+			targetProxy = 09EAB5711CC93FEF00EE7EEA /* PBXContainerItemProxy */;
+		};
+		09EAB57D1CC93FEF00EE7EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09EAB5561CC93FEF00EE7EEA /* LIQLib */;
+			targetProxy = 09EAB57C1CC93FEF00EE7EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09EAB5631CC93FEF00EE7EEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09EAB5641CC93FEF00EE7EEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09EAB5681CC93FEF00EE7EEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09EAB5691CC93FEF00EE7EEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09EAB5821CC93FEF00EE7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09EAB5831CC93FEF00EE7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09EAB5851CC93FEF00EE7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LIQLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LIQLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09EAB5861CC93FEF00EE7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LIQLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LIQLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09EAB5881CC93FEF00EE7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LIQLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LIQLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIQLib.app/LIQLib";
+			};
+			name = Debug;
+		};
+		09EAB5891CC93FEF00EE7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LIQLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LIQLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIQLib.app/LIQLib";
+			};
+			name = Release;
+		};
+		09EAB58B1CC93FEF00EE7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LIQLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LIQLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LIQLib;
+			};
+			name = Debug;
+		};
+		09EAB58C1CC93FEF00EE7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LIQLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LIQLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LIQLib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09EAB5521CC93FEF00EE7EEA /* Build configuration list for PBXProject "LIQLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EAB5821CC93FEF00EE7EEA /* Debug */,
+				09EAB5831CC93FEF00EE7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09EAB5841CC93FEF00EE7EEA /* Build configuration list for PBXNativeTarget "LIQLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EAB5851CC93FEF00EE7EEA /* Debug */,
+				09EAB5861CC93FEF00EE7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09EAB5871CC93FEF00EE7EEA /* Build configuration list for PBXNativeTarget "LIQLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EAB5881CC93FEF00EE7EEA /* Debug */,
+				09EAB5891CC93FEF00EE7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09EAB58A1CC93FEF00EE7EEA /* Build configuration list for PBXNativeTarget "LIQLibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EAB58B1CC93FEF00EE7EEA /* Debug */,
+				09EAB58C1CC93FEF00EE7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09EAB54F1CC93FEF00EE7EEA /* Project object */;
+}
